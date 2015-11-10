@@ -1,2 +1,2 @@
-Eitan Nirenberg's online portfolio
+Alex Nirenberg's online portfolio
 ethannir.guthub.io
