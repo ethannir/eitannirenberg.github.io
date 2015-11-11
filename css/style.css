@@ -1,10 +1,10 @@
 
 
+  /*///////// NAVBAR //////////*/
+
 #navbar nav a.menu-icon {
   display: none;
-  font-size: 2rem;
-  border: 2px solid #474747;
-  width: 5rem;
+
 }
 
 #navbar {
@@ -39,10 +39,35 @@
 
 #navbar nav a:hover {
   border-top: 4px solid #474747;
-    padding-top: 9px;
+  padding-top: 9px;
 }
+
+/*///////// CONTENT //////////*/
 
 .first {
   margin-top: 100px;
 }
 
+
+/*///////// RESPONSIVENESS //////////*/
+
+@media only screen and (max-width: 700px) {
+
+  #navbar nav a {
+    display:none;
+  }
+
+  #navbar nav a.menu-icon {
+    display:block;
+    float:right;
+    font-size: 2rem;
+    border: 2px solid #474747;
+    width: 5.5rem;
+  }
+  #navbar nav a:hover {
+    border-top: 2px solid #474747;
+    padding-top: 12px;
+
+  }
+
+}
