@@ -78,44 +78,66 @@ a.logo {
 
 /*///////// THUMBNAILS //////////*/
 
-#motiontitle {
-  padding-left: 10px;
-  padding-bottom: 10px
-}
 
 .thumbnails {
-  margin-left: 5px;
+  margin-left: 0.5%;
 }
 
 #thumbcont {
-  margin-left:-5px;
+  margin-left:-0.5%;
   position:relative;
+  display:inline-block;
+  width:20.1%;
+
 
 }
 
 #thumbcont img {
-width:20%;
+width:100%;
 }
 
-#thumbcont img.top {
-  position:absolute;
-  left:0;
-  opacity: 1;
+h3 {
+  font: 600 150%/0em 'Signika',sans-serif;
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 0;
+
+}
+
+h2 {
+  font: 300 150%/0.6em 'Signika',sans-serif;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 0;
+
+}
+
+
+.hovertext{
+    position: absolute;
+    width:100%;
+    height:100%;
+    background: #ed127b;
+    color: #fff;
+    opacity:0;
+    transition:0.5s;
+    padding-top: 35%;
+}
+
+a:hover .hovertext {
+    opacity:1;
+}
+
+/*///////// MODALS /////////*/
+
+#motionreelmodal {
+  clear:both;
+}
+
+.vimeoiframe {
   width: 100%;
-  -webkit-transition: opacity 0.3s ease-in-out;
-  -moz-transition: opacity 0.3s ease-in-out;
-  -o-transition: opacity 0.3s ease-in-out;
-  transition: opacity 0.3s ease-in-out;*/
+  height: 490px;
 }
-
-
-#thumbcont img.top:hover {
-opacity: 0;
-
-
-
-}
-
 
 /*///////// FOOTER /////////*/
 
@@ -152,9 +174,14 @@ a.instagram {
 /*///////// RESPONSIVENESS //////////*/
 
 @media only screen and (max-width: 850px) {
-  #thumbcont img {
-    width:33.20%;
+  #thumbcont {
+    width:33.33%;
+    margin-left: -0.7%;
   }
+  
+  .thumbnails {
+  margin-left: 0.7%;
+}
 
 }
 
@@ -175,20 +202,25 @@ a.instagram {
   #navbar a.menu-icon {
     display:block;
     float:left;
-    font-size: 4rem;
-    border: 3px solid #474747;
-    width: 7rem;
+    font-size: 3rem;
+    border: 3px solid #ed127b;
+    width: 5rem;
     text-align: center;
     margin-bottom: 10px;
-    padding: 5px;
+    padding: 2px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
+    color:#ed127b;
   }
 
+a.logo {
+  background-size: 80%;
+  background-position: top center;
+}
 
   #navbar a.menu-icon:hover {
-    border: 3px solid #474747;
+    border: 3px solid #ed127b;
 
   }
 
@@ -218,6 +250,10 @@ a.instagram {
   .first {
     margin-top: 30px;
 
+  }
+
+  .thumbnails {
+    margin-top: -50px;
   }
 
 

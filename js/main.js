@@ -15,17 +15,14 @@ $(function() {
     }
   });
 
-//////// fade in on hover /////////
 
-  // $('.motionreel>img.bottom').mouseover(function() {
-  //     $('.motionreel>img.top').attr('style',"display:block");
-  //     $('.motionreel>img.bottom').attr('style',"display:none");
-  // });
+//////// fix vimeo height /////////
 
-  // $('.motionreel>img.bottom').mouseout(function() {
-  //     $('.motionreel>img.top').attr('style',"display:none");
-  //     $('.motionreel>img.bottom').attr('style',"display:block");
-  // });
+$(window).resize(function(){
+    var tempwidth=$(".vimeoiframe").width();
+    var tempheight=tempwidth/1.77;
+    $(".vimeoiframe").css("height",tempheight);
+});
 
 
 });
