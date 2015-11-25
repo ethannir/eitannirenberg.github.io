@@ -41,19 +41,21 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid">
-      <div class="row">
+   <!--  <div class="container-fluid">
+      <div class="row"> -->
+    <div>
+      <div>
         <div class="thumbnails"> <!---gallery-->
 
           <a id="thumbcont" class="motionreel" href="#" data-toggle="modal" data-target="#motionreelmodal" title="motion reel">
             <div class="hovertext">
-              <h3>motion graphics</h3><br><h2>reel</h2> 
+              <h3>motion graphics</h3><br><h2>2015 reel</h2> 
             </div>
             <img class="top" src="images/motionreel.png"/>
           </a>
           <a id="thumbcont" class="3dreel" href="https://vimeo.com/alexnirenberg" title="3d reel">
             <div class="hovertext">
-              <h3>3d animation</h3><br><h2>reel</h2> 
+              <h3>3d animation</h3><br><h2>2015 reel</h2> 
             </div>
             <img class="top" src="images/3dreel.png"/>
           </a>
@@ -71,7 +73,7 @@
           </a>
            <a id="thumbcont" href="https://vimeo.com/alexnirenberg">
             <div class="hovertext">
-              <h3>eyeview</h3><br><h2>NCS Overview</h2> 
+              <h3>eyeview</h3><br><h2>ncs overview</h2> 
             </div>
             <img class="top" src="images/ncs.png"/>
           </a>
@@ -107,7 +109,7 @@
           </a>
           <a id="thumbcont" href="https://vimeo.com/alexnirenberg">
             <div class="hovertext">
-              <h3>drone</h3><br><h2>animation</h2> 
+              <h3>pioneer uav</h3><br><h2>3d simulation</h2> 
             </div>
             <img class="top" src="images/drone.png"/>
           </a>
@@ -188,7 +190,7 @@
 
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <iframe class="vimeoiframe" src="https://player.vimeo.com/video/141346842?autoplay=1&title=0&byline=0&portrait=0"  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          <iframe id="nofucusvideo" src="https://player.vimeo.com/video/141346842?api=1&player_id=vimeoplayer&autoplay=1title=0&byline=0&portrait=0" width="960" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
         </div>
 
     </div>
@@ -203,4 +205,20 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- Masonry -->
     <script src="js/main.js"></script>
+    <!--frogaloop -->
+    <script src="http://a.vimeocdn.com/js/froogaloop2.min.js"></script>
+    <script>
+      var iframe = document.getElementById('nofocusvideo');
+      // $f == Froogaloop
+      var player = $f(iframe);
+
+      $('.modal').on('hidden.bs.modal', function () {
+      player.api('pause');
+      })
+
+      $('.modal').on('shown.bs.modal', function () {
+      player.api('play');
+      })
+    </script>
+
 </html>
