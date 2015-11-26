@@ -83,15 +83,16 @@ a.logo {
   /*margin-left: 0.5%;*/
 }
 
-#thumbcont {
+.thumbcont {
   position:relative;
-  display:inline-block;
+  display:block;
+  float: left;
   width:14.2%;
 
 
 }
 
-#thumbcont img {
+.thumbcont img {
 width:100%;
 }
 
@@ -129,19 +130,42 @@ a:hover .hovertext {
 
 /*///////// MODALS /////////*/
 
-#motionreelmodal {
+/*#motionreelmodal {
   clear:both;
+}*/
+
+.modal-header {
+  margin-top: 30px;
 }
 
 
 .modal-header .close {
-  margin-right: -107px;
+  margin-left: -30px;
 }
-/*.vimeoiframe {
-  width:979px;
-  height:553px;
-  }
-*/
+
+#my-video {
+  width:900px;
+  height:506px;
+}
+
+h1 {
+   font: 600 200%/0em 'Signika',sans-serif;
+    text-align: left;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    color:#ed127b;
+
+}
+
+.videotitle {
+  height:60px;
+  padding-top: 10px;
+  background-color: white;
+  padding-left: 10px;
+
+}
+
+
 /*///////// FOOTER /////////*/
 
 
@@ -177,45 +201,58 @@ a.instagram {
 /*///////// RESPONSIVENESS //////////*/
 
 @media only screen and (max-width: 1600px) {
-  #thumbcont {
+  .thumbcont {
     width:16.66%;
    
   }
 
 }
 @media only screen and (max-width: 1300px) {
-  #thumbcont {
+  .thumbcont {
     width:20%;
    
   }
   
-  .vimeoiframe {
-  width:1120px;
-  height:630px;
+@media only screen and (max-width: 1200px) {
+
+  #my-video {
+    width:600px;
+    height:338px;
   }
 
+  h1 {
+   font: 600 150%/0em 'Signika',sans-serif;
+    
+  }
 }
-
 
 
 @media only screen and (max-width: 850px) {
-  #thumbcont {
+  .thumbcont {
     width:33.33%;
-    /*margin-left: -0.7%;*/
   }
   
-  .thumbnails {
- /* margin-left: 0.7%;*/
-  }
-
-  .vimeoiframe {
-  width:800px;
-  height:450px;
-  }
 
 }
 
-@media only screen and (max-width: 700px) {
+
+
+@media only screen and (max-width: 667px) {
+
+  #my-video {
+    width:360px;
+    height:202px;
+  }
+
+  h1 {
+   font: 600 120%/0em 'Signika',sans-serif;
+    
+  }
+
+
+}
+
+@media only screen and (max-width: 600px) {
   
   #navbar {
     background-color: rgba(0, 0, 0, 0);
@@ -286,5 +323,25 @@ a.instagram {
     margin-top: -50px;
   }
 
+  
+  h3 {
+    font: 600 100%/0em 'Signika',sans-serif;
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+  }
+
+  h2 {
+    font: 300 100%/0em 'Signika',sans-serif;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 0;
+
+  }
+
+  .hovertext{
+    padding-top: 30%;
+  }
 
 }
