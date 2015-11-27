@@ -5885,14 +5885,12 @@ button.list-group-item-danger.active:focus {
   border-radius: 3px;
 }
 .close {
-  float: right;
+  /*float: right;*/
   font-size: 21px;
   font-weight: bold;
   line-height: 1;
-  color: #000;
+  color: #ed127b;
   text-shadow: 0 1px 0 #fff;
-  filter: alpha(opacity=20);
-  opacity: .2;
 }
 .close:hover,
 .close:focus {
@@ -5950,8 +5948,8 @@ button.close {
 }
 .modal-content {
   position: relative;
-  background-color: #fff;
-  -webkit-background-clip: padding-box;
+/*  background-color: #fff;
+*/  -webkit-background-clip: padding-box;
           background-clip: padding-box;
 /*  border: 1px solid #999;
   border: 1px solid rgba(0, 0, 0, .2);
@@ -5982,9 +5980,7 @@ button.close {
 /*  padding: 15px;
 *//*  border-bottom: 1px solid #e5e5e5;
 */}
-.modal-header .close {
-  margin-top: -2px;
-}
+
 .modal-title {
   margin: 0;
   line-height: 1.42857143;
