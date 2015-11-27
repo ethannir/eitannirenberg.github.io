@@ -16,16 +16,12 @@ $(function() {
   });
 
 
-//////// fix vimeo height /////////
 
-$(window).resize(function(){
-    var tempwidth=$(".vimeoiframe").width();
-    var tempheight=tempwidth/1.77;
-    $(".vimeoiframe").css("height",tempheight);
+
+//Stop Video
+$('.modal').on('hidden.bs.modal', function (e) {
+  $('video').attr("src", $("video").attr("src"));
 });
-
-
-// ////// fix vimeo autoplay ///////// 
 
 // $(function() {
 //     var iframe = $('#player1')[0];

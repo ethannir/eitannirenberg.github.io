@@ -130,9 +130,6 @@ a:hover .hovertext {
 
 /*///////// MODALS /////////*/
 
-/*#motionreelmodal {
-  clear:both;
-}*/
 
 .modal-header {
   margin-top: 30px;
@@ -165,7 +162,10 @@ h1 {
 
 }
 
-
+#my-video .vjs-big-play-button {
+  font-size: 6em;
+  margin: 200px 350px;
+}
 /*///////// FOOTER /////////*/
 
 
@@ -219,6 +219,11 @@ a.instagram {
     width:600px;
     height:338px;
   }
+  
+  #my-video .vjs-big-play-button {
+    font-size: 4em;
+    margin: 130px 233px;
+  }
 
   h1 {
    font: 600 150%/0em 'Signika',sans-serif;
@@ -242,6 +247,11 @@ a.instagram {
   #my-video {
     width:360px;
     height:202px;
+  }
+  
+   #my-video .vjs-big-play-button {
+    font-size: 3em;
+    margin: 70px 128px;
   }
 
   h1 {
