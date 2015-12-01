@@ -84,7 +84,7 @@ a.logo {
   position:relative;
   display:block;
   float: left;
-  width:14.2%;
+  width:14.28%;
 
 
 }
@@ -163,6 +163,46 @@ h1 {
   font-size: 6em;
   margin: 200px 350px;
 }
+
+/*///////// ABOUT /////////*/
+
+.aboutsec {
+  max-width: 970px;
+}
+.about {
+  width:58.33%;
+  float:left;
+  max-width: 1000px;
+}
+
+p {
+  font: 300 110%/1.3em 'Signika',sans-serif;
+}
+
+.aboutlink {
+  font: 600 110%/1.3em 'Signika',sans-serif;
+  text-decoration: none;
+  color: #ed127b;
+}
+
+
+a.cv {
+  display:inline-block;
+  width: 140px;
+  height: 30px;
+  margin-top: 10px;
+  background: url(../images/view_resume.png) no-repeat;
+}
+
+#mypic {
+  float:right;
+  margin-top: 10px;
+  margin-left:10px;
+  }
+
+
+
+
 /*///////// FOOTER /////////*/
 
 
@@ -219,7 +259,7 @@ a.instagram {
   
   #my-video .vjs-big-play-button {
     font-size: 4em;
-    margin: 130px 233px;
+    margin: 130px 230px;
   }
 
   h1 {
@@ -260,7 +300,7 @@ a.instagram {
   
    #my-video .vjs-big-play-button {
     font-size: 3em;
-    margin: 70px 128px;
+    margin: 70px 126px;
   }
 
   h1 {
