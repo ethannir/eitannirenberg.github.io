@@ -13,6 +13,7 @@ body { font-family: sans-serif; }
 
 #navbar a.menu-icon {
   display: none;
+  cursor: pointer;
 
 }
 
@@ -143,12 +144,16 @@ a:hover .hovertext {
 }
 
 h1 {
-   font: 600 200%/0em 'Signika',sans-serif;
+   font: 300 200%/0em 'Signika',sans-serif;
     text-align: left;
     margin-bottom: 0;
     padding-bottom: 0;
     color:#ed127b;
 
+}
+
+ a:focus, a:active {
+   outline: none !important;
 }
 
 .videotitle {
@@ -158,6 +163,7 @@ h1 {
   padding-left: 10px;
 
 }
+
 
 #my-video .vjs-big-play-button {
   font-size: 6em;
@@ -176,7 +182,7 @@ h1 {
 }
 
 p {
-  font: 300 110%/1.3em 'Signika',sans-serif;
+  font: 300 130%/1.3em 'Signika',sans-serif;
 }
 
 .aboutlink {
@@ -185,6 +191,9 @@ p {
   color: #ed127b;
 }
 
+.aboutlink:hover {
+  text-decoration: none;
+}
 
 a.cv {
   display:inline-block;
@@ -198,6 +207,7 @@ a.cv {
   float:right;
   margin-top: 10px;
   margin-left:10px;
+  margin-right: 10px;
   }
 
 
@@ -263,7 +273,7 @@ a.instagram {
   }
 
   h1 {
-   font: 600 150%/0em 'Signika',sans-serif;
+   font: 300 150%/0em 'Signika',sans-serif;
     
   }
   .modal-header .close {
@@ -271,7 +281,21 @@ a.instagram {
   }
 }
 
+ @media only screen and (max-width: 991px) {
+
+    p {
+    font: 300 110%/1.3em 'Signika',sans-serif;
+  }
+
+  .aboutlink {
+    font: 600 110%/1.3em 'Signika',sans-serif;
+    text-decoration: none;
+    color: #ed127b;
+  }
+}
  @media only screen and (max-width: 950px) {
+
+
   h3 {
     font: 600 120%/0em 'Signika',sans-serif;
   }
@@ -285,6 +309,19 @@ a.instagram {
 @media only screen and (max-width: 850px) {
   .thumbcont {
     width:33.33%;
+  }
+
+  .aboutsec {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .about {
+    width: 100%;
+  }
+
+  #mypic {
+    display:none;
   }
 
 }
@@ -304,7 +341,7 @@ a.instagram {
   }
 
   h1 {
-   font: 600 120%/0em 'Signika',sans-serif;
+   font: 300 120%/0em 'Signika',sans-serif;
     
   }
    .modal-header .close {
@@ -406,5 +443,8 @@ a.instagram {
   .hovertext{
     padding-top: 30%;
   }
-
+  
+  .aboutsec {
+    margin-top: -50px;
+  }
 }
