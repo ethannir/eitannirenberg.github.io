@@ -172,12 +172,14 @@ h1 {
 
 /*///////// ABOUT /////////*/
 
-.aboutsec {
+/*.aboutsec {
   max-width: 970px;
-}
+}*/
+
 .about {
   width:58.33%;
   float:left;
+  padding-left: 20px; 
   max-width: 1000px;
 }
 
@@ -207,7 +209,7 @@ a.cv {
   float:right;
   margin-top: 10px;
   margin-left:10px;
-  margin-right: 10px;
+  margin-right: 20px;
   }
 
 
@@ -247,7 +249,7 @@ a.instagram {
 
 /*///////// RESPONSIVENESS //////////*/
 
-@media only screen and (max-width: 1600px) {
+@media only screen and (max-width: 2000px) {
   .thumbcont {
     width:16.66%;
    
@@ -292,6 +294,10 @@ a.instagram {
     text-decoration: none;
     color: #ed127b;
   }
+
+  .about {
+    width: 55%;
+  }
 }
  @media only screen and (max-width: 950px) {
 
@@ -306,6 +312,8 @@ a.instagram {
   }
 
 }
+
+
 @media only screen and (max-width: 850px) {
   .thumbcont {
     width:33.33%;
@@ -320,9 +328,10 @@ a.instagram {
     width: 100%;
   }
 
-  #mypic {
+   #mypic {
     display:none;
   }
+
 
 }
 

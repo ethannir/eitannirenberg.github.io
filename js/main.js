@@ -4,7 +4,7 @@ $(function() {
 /////// Mobile Menu /////////
 
   $('a.menu-icon').click(function() {
-    $('#menu-links').slideToggle();
+    $('#menu-links').slideToggle(200);
   });
 
 
@@ -20,7 +20,9 @@ $(function() {
 
 //Stop Video
 $('.modal').on('hidden.bs.modal', function (e) {
-  $('video').attr("src", $("video").attr("src"));
+  $('video').each(function(){
+    $(this)[0].load();
+  });
 });
 
 });
