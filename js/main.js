@@ -25,6 +25,13 @@ $('.modal').on('hidden.bs.modal', function (e) {
   });
 });
 
+// possible fix
+if(window.stop !== undefined) {
+    window.stop();
+} else if(document.execCommand !== undefined) {
+    document.execCommand("Stop", false);
+}
+
 });
 
 
