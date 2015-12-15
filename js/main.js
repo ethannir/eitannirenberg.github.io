@@ -20,9 +20,8 @@ $(function() {
 
 //Stop Video
 $('.modal').on('hidden.bs.modal', function (e) {
-  $('video').each(function(){
-    $(this)[0].load();
-  });
+  $(this).find('video')[0].pause();
+});
 
 
 // // possible fix
@@ -32,8 +31,6 @@ $('.modal').on('hidden.bs.modal', function (e) {
 //       document.execCommand("Stop", false);
 //   }
 // }
-
-});
 
 });
 
