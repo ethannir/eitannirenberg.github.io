@@ -23,14 +23,15 @@ $('.modal').on('hidden.bs.modal', function (e) {
   $('video').each(function(){
     $(this)[0].load();
   });
-});
 
-// // possible fix
-// if(window.stop !== undefined) {
-//     window.stop();
-// } else if(document.execCommand !== undefined) {
-//     document.execCommand("Stop", false);
-// }
+
+// possible fix
+if(window.stop !== undefined) {
+    window.stop();
+  } else if(document.execCommand !== undefined) {
+      document.execCommand("Stop", false);
+  }
+}
 
 });
 
