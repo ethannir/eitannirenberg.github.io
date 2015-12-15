@@ -20,7 +20,7 @@ $(function() {
 
 //Stop Video
 $('.modal').on('hidden.bs.modal', function (e) {
-  $(this).find('video')[0].pause();
+  $(this).find('video')[0].load();
 });
 
 
