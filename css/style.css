@@ -143,6 +143,13 @@ a:hover .hovertext {
   height:506px;
 }
 
+#box-video {
+  width:506px;
+  height:506px;
+  margin-left: 200px;
+
+}
+
 h1 {
    font: 300 200%/0em 'Signika',sans-serif;
     text-align: left;
@@ -164,10 +171,21 @@ h1 {
 
 }
 
+.boxvideotitle {
+  height:60px;
+  padding-top: 10px;
+  background-color: white;
+  padding-left: 10px;
 
+}
 #my-video .vjs-big-play-button {
   font-size: 6em;
   margin: 200px 350px;
+}
+
+#box-video .vjs-big-play-button {
+  font-size: 6em;
+  margin: 200px 153px;
 }
 
 /*///////// ABOUT /////////*/
@@ -271,10 +289,21 @@ a.tumblr {
     width:600px;
     height:338px;
   }
+
+  #box-video {
+    width:338px;
+    height:338px;
+    margin-left:139px; 
+  }
   
   #my-video .vjs-big-play-button {
     font-size: 4em;
     margin: 130px 230px;
+  }
+
+  #box-video .vjs-big-play-button {
+    font-size: 4em;
+    margin: 130px 100px;
   }
 
   h1 {
@@ -346,10 +375,21 @@ a.tumblr {
     width:360px;
     height:202px;
   }
+
+  #box-video {
+    width:202px;
+    height:202px;
+    margin-left: 81px;
+  }
   
-   #my-video .vjs-big-play-button {
+  #my-video .vjs-big-play-button {
     font-size: 3em;
     margin: 70px 126px;
+  }
+
+  #box-video .vjs-big-play-button {
+    font-size: 3em;
+    margin: 70px 49px;
   }
 
   h1 {
