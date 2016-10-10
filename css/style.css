@@ -138,6 +138,8 @@ a:hover .hovertext {
   margin-left: 887px;
 }
 
+
+
 #my-video {
   width:900px;
   height:506px;
@@ -149,6 +151,11 @@ a:hover .hovertext {
   margin-left: 200px;
 
 }
+
+#gifsmodal .modal-header .close {
+  margin-left: 693px;
+}
+
 
 h1 {
    font: 300 200%/0em 'Signika',sans-serif;
@@ -175,7 +182,9 @@ h1 {
   height:60px;
   padding-top: 10px;
   background-color: white;
-  padding-left: 10px;
+  padding-left: 15px;
+  margin-left: 199px;
+  margin-right: 194px;
 
 }
 #my-video .vjs-big-play-button {
@@ -295,7 +304,17 @@ a.tumblr {
     height:338px;
     margin-left:139px; 
   }
-  
+
+  .boxvideotitle {
+    padding-left: 10px;
+    margin-left: 139px;
+    margin-right: 123px;
+  }
+
+  #gifsmodal .modal-header .close {
+  margin-left: 464px;
+  }
+
   #my-video .vjs-big-play-button {
     font-size: 4em;
     margin: 130px 230px;
@@ -313,6 +332,8 @@ a.tumblr {
   .modal-header .close {
     margin-left: 587px;
   }
+
+
 }
 
  @media only screen and (max-width: 991px) {
@@ -401,8 +422,19 @@ a.tumblr {
   }
   
   .close {
-  font-size: 40px;
-}
+    font-size: 40px;
+  }
+
+   .boxvideotitle {
+      padding-left: 10px;
+      margin-left: 79px;
+      margin-right: 70px;
+ 
+  }
+
+  #gifsmodal .modal-header .close {
+  margin-left: 262px;
+  }
 
 @media only screen and (max-width: 600px) {
   
