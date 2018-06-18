@@ -85,7 +85,7 @@ a.logo {
   position:relative;
   display:block;
   float: left;
-  width:14.28%;
+  width:33.33%;
 
 
 }
@@ -99,7 +99,7 @@ h3 {
   text-align: center;
   margin-bottom: 0;
   padding-bottom: 0;
-
+  font
 }
 
 h2 {
@@ -281,14 +281,18 @@ a.tumblr {
 
 @media only screen and (max-width: 2000px) {
   .thumbcont {
-    width:16.66%;
+    width:33.33%;
+    font-size: 160%;
    
   }
-
+  
+  .hovertext{
+    padding-top: 40%;
+  }
 }
 @media only screen and (max-width: 1300px) {
   .thumbcont {
-    width:20%;
+    width:33%;
    
   }
   
@@ -334,6 +338,7 @@ a.tumblr {
   }
 
 
+
 }
 
  @media only screen and (max-width: 991px) {
@@ -351,16 +356,18 @@ a.tumblr {
   .about {
     width: 55%;
   }
+  
+
 }
  @media only screen and (max-width: 950px) {
 
 
   h3 {
-    font: 600 120%/0em 'Signika',sans-serif;
+    font: 600 100%/0em 'Signika',sans-serif;
   }
 
   h2 {
-    font: 300 120%/0em 'Signika',sans-serif;
+    font: 300 100%/0em 'Signika',sans-serif;
 
   }
 
@@ -386,6 +393,10 @@ a.tumblr {
   }
 
 
+  .hovertext{
+    padding-top: 35%;
+    font-size: 80%;
+  }
 }
 
 
@@ -444,15 +455,22 @@ a.tumblr {
   }
   
   #menu-links {
+  
     display: none;
     background:none;
     clear:both;
+    /*position: fixed;
+    padding-top: 53px;
+    padding-left: 2px;
+    width: 100%;*/
+
   }
 
 
   #navbar a.menu-icon {
     display:block;
     float:left;
+    /*position: fixed!important;*/
     font-size: 3rem;
     border: 3px solid #ed127b;
     width: 5rem;
