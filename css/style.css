@@ -24,7 +24,8 @@ body { font-family: sans-serif; }
   left: 0;
   width: 100%;
   z-index: 2;
-  text-align: center;
+  text-align: left;
+  padding-left: 20px;
   padding-top: 22px;
   padding-bottom: 10px;
   background-color:white;
@@ -458,6 +459,7 @@ a.tumblr {
   
   #navbar {
     background-color: rgba(0, 0, 0, 0);
+    padding-left: 0px;
     position:absolute;
   }
   
