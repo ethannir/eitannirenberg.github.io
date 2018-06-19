@@ -291,9 +291,9 @@ a.tumblr {
     padding-top: 40%;
   }
 }
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1500px) {
   .thumbcont {
-    width:25%;
+    width:33.33%;
    
   }
   
