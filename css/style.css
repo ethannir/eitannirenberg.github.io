@@ -69,8 +69,8 @@ body { font-family: sans-serif; }
 
 a.logo {
   display: inline-block;
-  width: 330px;
-  height: 216px;
+  width: 700px;
+  height: 183px;
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
@@ -85,7 +85,7 @@ a.logo {
   position:relative;
   display:block;
   float: left;
-  width:33.33%;
+  width:20%;
 
 
 }
@@ -281,7 +281,7 @@ a.tumblr {
 
 @media only screen and (max-width: 2000px) {
   .thumbcont {
-    width:33.33%;
+    width:25%;
     font-size: 160%;
    
   }
@@ -292,7 +292,7 @@ a.tumblr {
 }
 @media only screen and (max-width: 1300px) {
   .thumbcont {
-    width:33%;
+    width:25%;
    
   }
   
@@ -371,6 +371,13 @@ a.tumblr {
 
   }
 
+
+  a.logo {
+    background-size: 80%;
+    width: 500px;
+    height: 110px;
+    background-position: top center;
+  }
 }
 
 
@@ -484,8 +491,10 @@ a.tumblr {
   }
 
   a.logo {
-    background-size: 80%;
-    background-position: top center;
+    background-size: 50%;
+    background-position: top left;
+    margin-left: 60px;
+    margin-top: -18px;
   }
 
   #navbar a.menu-icon:hover {
