@@ -61,7 +61,7 @@ body { font-family: sans-serif; }
 
 .first {
   margin-top: 90px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .logoarea {
@@ -70,6 +70,8 @@ body { font-family: sans-serif; }
 
 a.logo {
   display: inline-block;
+  background-size: 80%!important;
+  background-position: top center!important;
   width: 700px;
   height: 183px;
   text-indent: 100%;
@@ -375,7 +377,7 @@ a.tumblr {
 
 
   a.logo {
-    background-size: 80%;
+    background-size: 80%!important;
     width: 500px;
     height: 110px;
     background-position: top center;
@@ -494,8 +496,8 @@ a.tumblr {
   }
 
   a.logo {
-    background-size: 50%;
-    background-position: top left;
+    background-size: 50%!important;
+    background-position: top left!important;
     margin-left: 60px;
     margin-top: -18px;
   }
