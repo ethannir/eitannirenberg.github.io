@@ -99,7 +99,7 @@ h3 {
 }
 
 h2 {
-  font: 100 150%/0.6em 'Anek Kannada', sans-serif;
+  font: 200 150%/0.6em 'Anek Kannada', sans-serif;
   text-align: center;
   margin-top: 0;
   padding-top: 0;
@@ -107,7 +107,7 @@ h2 {
 }
 
 h1 {
-   font: 100 300%/0em 'Anek Kannada', sans-serif;
+   font: 200 300%/0em 'Anek Kannada', sans-serif;
     text-align: left;
     margin-top: 0;
     padding-top: 40px;
@@ -198,7 +198,7 @@ h1 {
 }
 
 p {
-  font: 100 130%/1.3em 'Anek Kannada', sans-serif;
+  font: 200 130%/1.3em 'Anek Kannada', sans-serif;
 }
 
 .aboutlink {
@@ -212,7 +212,7 @@ p {
 }
 
 .resumelink {
-  font: 500 130%/1.3em 'Anek Kannada', sans-serif;
+  font: 600 130%/1.3em 'Anek Kannada', sans-serif;
   text-decoration: none;
   color: #ff12ee;
 }
@@ -301,7 +301,7 @@ a.dribbble {
 
 
    h1 {
-   font: 100 200%/0em 'Anek Kannada', sans-serif; 
+   font: 200 200%/0em 'Anek Kannada', sans-serif; 
    padding-top: 25px;
     
   }
@@ -313,7 +313,7 @@ a.dribbble {
  @media only screen and (max-width: 991px) {
 
     p {
-    font: 100 110%/1.3em 'Anek Kannada', sans-serif;
+    font: 200 110%/1.3em 'Anek Kannada', sans-serif;
   }
 
   .aboutlink {
@@ -332,11 +332,11 @@ a.dribbble {
 
 
   h3 {
-    font: 100 100%/0em 'Anek Kannada', sans-serif;
+    font: 200 100%/0em 'Anek Kannada', sans-serif;
   }
 
   h2 {
-    font: 100 130%/0em 'Anek Kannada', sans-serif;
+    font: 200 130%/0em 'Anek Kannada', sans-serif;
 
   }
 
@@ -384,7 +384,7 @@ a.dribbble {
   
 
  h1 {
-   font: 100 200%/0em 'Anek Kannada',sans-serif;
+   font: 200 200%/0em 'Anek Kannada',sans-serif;
     padding-top: 20px;
   }
 
@@ -420,7 +420,7 @@ a.dribbble {
     width: 5rem;
     text-align: center;
     margin-bottom: 10px;
-    padding: 2px;
+    padding: 4px 0px 0px 0px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
@@ -474,7 +474,7 @@ a.dribbble {
 
   
   h3 {
-    font: 100 80%/0em 'Anek Kannada', sans-serif;
+    font: 200 80%/0em 'Anek Kannada', sans-serif;
     text-align: center;
     margin-bottom: 0;
     padding-bottom: 0;
@@ -482,7 +482,7 @@ a.dribbble {
   }
 
   h2 {
-    font: 100 80%/0em 'Anek Kannada', sans-serif;
+    font: 200 80%/0em 'Anek Kannada', sans-serif;
     text-align: center;
     margin-top: 0;
     padding-top: 0;
