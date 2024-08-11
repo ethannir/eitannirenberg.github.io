@@ -1,17 +1,11 @@
-/* Global Reset */
 * {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  margin: 0; /* Reset margin to avoid unintentional space */
-  padding: 0; /* Reset padding to avoid unintentional space */
+          box-sizing: border-box;
 }
 
-/* Body Styles */
-body {
-  font-family: 'Anek Kannada', sans-serif;
-  margin: 0; /* Ensure body has no margin */
-  padding: 0; /* Ensure body has no padding */
+body { font-family: 'Anek Kannada', sans-serif; 
 }
+
 
 
   /*///////// NAVBAR //////////*/
@@ -90,6 +84,23 @@ a.logo {
   background: url(../images/logo.png) no-repeat;
 }
 
+/*///////// THUMBNAILS //////////*/
+
+
+
+.thumbcont {
+  position:relative;
+  display:block;
+  float: left;
+  width:20%;
+  font-size: 160%;
+
+
+}
+
+.thumbcont img {
+width:100%;
+}
 
 h3 {
   font: 600 150%/0em 'Anek Kannada', sans-serif;
@@ -115,47 +126,45 @@ h1 {
 
 }
 
+.hovertext{
+    position: absolute;
+    width:100%;
+    height:100%;
+    background: #ff12ee;
+    color: #fff;
+    opacity:0;
+    transition:0.5s;
+    padding-top: 40%;
+}
+
+a:hover .hovertext {
+    opacity:1;
+}
 
 /*///////// VIDEOS /////////*/
 
 
-        .video-container {
-            width: calc(100% - 40px); /* 40px total padding (20px on each side) */
-            max-width: 100%; /* Ensure the video doesn’t exceed 100% of the container */
-            padding: 0 2px; /* Left and right padding */
-            box-sizing: border-box; /* Include padding in the width calculation */
-            margin: 0 auto 0px; /* Center the container and add space below each video */
-        }
-
-        .video-wrapper {
-            position: relative;
-            width: 100%;
-            padding-bottom: 56.25%; /* 16:9 aspect ratio (height / width = 9 / 16 = 0.5625) */
-            height: 0;
-            overflow: hidden;
-        }
-
-        .video-wrapper .video-js {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            object-fit: cover; /* Ensure the video covers the wrapper area */
-        }
-
-        .vjs-poster {
-            background-size: cover; /* Ensure the poster image covers the poster area */
-            background-position: center; /* Center the poster image */
-        }
-
-.video-js .vjs-big-play-button {
-    position: absolute !important; /* Ensure it's positioned absolutely */
-    top: 50% !important; /* Center vertically */
-    left: 50% !important; /* Center horizontally */
-    transform: translate(-50%, -50%) !important; /* Adjust to truly center */
-    /* No changes to width, height, or other styles */
+.modal-header {
+  margin-top: 30px;
 }
+
+
+.modal-header .close {
+  margin-left: 887px;
+}
+
+
+
+#my-video {
+  width:960px;
+  height:540px;
+  margin-left: 22px;
+}
+
+}
+
+
+
 
  a:focus, a:active {
    outline: none !important;
@@ -184,6 +193,10 @@ h1 {
 }
 
 
+#my-video .vjs-big-play-button {
+  font-size: 6em;
+  margin: 220px 380px;
+}
 
 
 /*///////// ABOUT /////////*/
@@ -298,7 +311,23 @@ a.dribbble {
   
 @media only screen and (max-width: 1020px) {
 
+  #my-video {
+    width:800px;
+    height:450px;
+  }
 
+
+
+
+  #my-video .vjs-big-play-button {
+    font-size: 4em;
+    margin: 180px 330px;
+  }
+
+  #box-video .vjs-big-play-button {
+    font-size: 4em;
+    margin: 130px 100px;
+  }
 
    h1 {
    font: 100 200%/0em 'Anek Kannada', sans-serif; 
@@ -351,6 +380,18 @@ a.dribbble {
 @media only screen and (max-width: 850px) {
  
 
+   #my-video {
+    width:540px;
+    height:303px;
+
+  }
+
+ #my-video .vjs-big-play-button {
+    font-size: 4em;
+    margin: 120px 220px;
+  }
+
+
 
   .aboutsec {
     padding-left: 20px;
@@ -379,6 +420,11 @@ a.dribbble {
 
 
 @media only screen and (max-width: 667px) {
+
+  #my-video {
+    width:540px;
+    height:303px;
+  }
 
 
   
