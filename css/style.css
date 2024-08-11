@@ -124,10 +124,10 @@ h1 {
 
         .video-container {
             width: calc(100% - 40px); /* 40px total padding (20px on each side) */
-            max-width: 900px; /* Ensure the video doesn’t exceed 100% of the container */
+            max-width: 920px; /* Ensure the video doesn’t exceed 100% of the container */
             padding: 0 2px; /* Left and right padding */
             box-sizing: border-box; /* Include padding in the width calculation */
-            margin: 0 0 30px 20px; /* Add left margin for alignment and space below each video */
+            margin: 0 0 0px 20px; /* Add left margin for alignment and space below each video */
         }
 
         .video-wrapper {
