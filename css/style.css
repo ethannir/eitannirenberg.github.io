@@ -3,7 +3,8 @@
           box-sizing: border-box;
 }
 
-body { font-family: sans-serif; }
+body { font-family: 'Anek Kannada', sans-serif; 
+}
 
 
 
@@ -43,7 +44,7 @@ body { font-family: sans-serif; }
   margin-left:7px;
   margin-right:7px;
   border-top: 1px solid #474747;
-  font: normal normal normal 15px/1.4em 'Signika',sans-serif;
+  font: normal normal normal 15px/1.4em 'Anek Kannada', sans-serif;
 }
 
 #navbar a.selected {
@@ -65,15 +66,18 @@ body { font-family: sans-serif; }
 }
 
 .logoarea {
-  text-align: center;
+  text-align: left;
+
 }
 
 a.logo {
   display: inline-block;
   background-size: 80%!important;
-  background-position: top center!important;
-  width: 700px;
-  height: 183px;
+  margin-left: 22px;
+  margin-top: 80px;
+  margin-bottom: 30px;
+  width: 500px;
+  height: 100px;
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
@@ -99,27 +103,34 @@ width:100%;
 }
 
 h3 {
-  font: 600 150%/0em 'Signika',sans-serif;
+  font: 600 150%/0em 'Anek Kannada', sans-serif;
   text-align: center;
   margin-bottom: 0;
   padding-bottom: 0;
-  font
 }
 
 h2 {
-  font: 300 150%/0.6em 'Signika',sans-serif;
+  font: 100 150%/0.6em 'Anek Kannada', sans-serif;
   text-align: center;
   margin-top: 0;
   padding-top: 0;
 
 }
 
+h1 {
+   font: 100 300%/0em 'Anek Kannada', sans-serif;
+    text-align: left;
+    margin-top: 0;
+    padding-top: 40px;
+    color:#2e2e2e; 
+
+}
 
 .hovertext{
     position: absolute;
     width:100%;
     height:100%;
-    background: #ed127b;
+    background: #ff12ee;
     color: #fff;
     opacity:0;
     transition:0.5s;
@@ -130,7 +141,7 @@ a:hover .hovertext {
     opacity:1;
 }
 
-/*///////// MODALS /////////*/
+/*///////// VIDEOS /////////*/
 
 
 .modal-header {
@@ -145,30 +156,15 @@ a:hover .hovertext {
 
 
 #my-video {
-  width:900px;
-  height:506px;
+  width:960px;
+  height:540px;
+  margin-left: 22px;
 }
-
-#box-video {
-  width:506px;
-  height:506px;
-  margin-left: 200px;
 
 }
 
-#gifsmodal .modal-header .close {
-  margin-left: 693px;
-}
 
 
-h1 {
-   font: 300 200%/0em 'Signika',sans-serif;
-    text-align: left;
-    margin-bottom: 0;
-    padding-bottom: 0;
-    color:#ed127b;
-
-}
 
  a:focus, a:active {
    outline: none !important;
@@ -178,34 +174,34 @@ h1 {
   height:60px;
   padding-top: 10px;
   background-color: white;
-  padding-left: 10px;
+  margin-left: 22px;
+  margin-bottom: 60px;
+  color: #2e2e2e;
+
 
 }
 
-.boxvideotitle {
-  height:60px;
-  padding-top: 10px;
+.formoretext {
+  text-align: center;
+  height:20px;
+  padding-top: 0px;
   background-color: white;
-  padding-left: 15px;
-  margin-left: 199px;
-  margin-right: 194px;
+  margin-left: 22px;
+  margin-bottom: 0px;
+  color: #2e2e2e;
 
 }
+
+
 #my-video .vjs-big-play-button {
   font-size: 6em;
-  margin: 200px 350px;
+  margin: 220px 380px;
 }
 
-#box-video .vjs-big-play-button {
-  font-size: 6em;
-  margin: 200px 153px;
-}
 
 /*///////// ABOUT /////////*/
 
-/*.aboutsec {
-  max-width: 970px;
-}*/
+
 
 .about {
   width:58.33%;
@@ -215,17 +211,23 @@ h1 {
 }
 
 p {
-  font: 300 130%/1.3em 'Signika',sans-serif;
+  font: 100 130%/1.3em 'Anek Kannada', sans-serif;
 }
 
 .aboutlink {
-  font: 600 110%/1.3em 'Signika',sans-serif;
+  font: 300 110%/1.3em 'Anek Kannada', sans-serif;
   text-decoration: none;
-  color: #ed127b;
+  color: #ff12ee;
 }
 
 .aboutlink:hover {
   text-decoration: none;
+}
+
+.resumelink {
+  font: 500 130%/1.3em 'Anek Kannada', sans-serif;
+  text-decoration: none;
+  color: #ff12ee;
 }
 
 a.cv {
@@ -251,38 +253,46 @@ a.cv {
 
 .social {
   text-align: center;
-  border-top: 1px solid black;
   padding-top: 30px;
-  margin-top:30px;
+  margin-top: 30px;
+  margin-left: 22px;
+  margin-right: 22px;
+  border-top: 1px solid black;
+
 }
 
 .social a {
-  display: inline-block;
-  width: 40px;
-  height: 40px;
+display: inline-block;
+  width: 40px; 
+  height: 40px; 
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
 }
 
+
 a.linkedin {
   background: url(../images/linkedin.png) no-repeat;
+  background-size: 30px 30px;
 }
 
 a.vimeo {
   background: url(../images/vimeo.png) no-repeat;
+  background-size: 30px 30px;
+
 }
 
 a.instagram {
   background: url(../images/instagram.png) no-repeat;
+  background-size: 30px 30px;
+
 }
 
-a.tumblr {
-  background: url(../images/tumblr.png) no-repeat;
-}
 
 a.dribbble {
   background: url(../images/dribbble.png) no-repeat;
+  background-size: 30px 30px;
+
 }
 /*///////// RESPONSIVENESS //////////*/
 
@@ -297,38 +307,21 @@ a.dribbble {
     padding-top: 40%;
   }
 }
-@media only screen and (max-width: 1500px) {
-  .thumbcont {
-    width:33.33%;
-   
-  }
+
   
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1020px) {
 
   #my-video {
-    width:600px;
-    height:338px;
+    width:800px;
+    height:450px;
   }
 
-  #box-video {
-    width:338px;
-    height:338px;
-    margin-left:139px; 
-  }
 
-  .boxvideotitle {
-    padding-left: 10px;
-    margin-left: 139px;
-    margin-right: 123px;
-  }
 
-  #gifsmodal .modal-header .close {
-  margin-left: 464px;
-  }
 
   #my-video .vjs-big-play-button {
     font-size: 4em;
-    margin: 130px 230px;
+    margin: 180px 330px;
   }
 
   #box-video .vjs-big-play-button {
@@ -336,12 +329,10 @@ a.dribbble {
     margin: 130px 100px;
   }
 
-  h1 {
-   font: 300 150%/0em 'Signika',sans-serif;
+   h1 {
+   font: 100 200%/0em 'Anek Kannada', sans-serif; 
+   padding-top: 25px;
     
-  }
-  .modal-header .close {
-    margin-left: 587px;
   }
 
 
@@ -351,13 +342,13 @@ a.dribbble {
  @media only screen and (max-width: 991px) {
 
     p {
-    font: 300 110%/1.3em 'Signika',sans-serif;
+    font: 100 110%/1.3em 'Anek Kannada', sans-serif;
   }
 
   .aboutlink {
-    font: 600 110%/1.3em 'Signika',sans-serif;
+    font: 300 110%/1.3em 'Anek Kannada', sans-serif;
     text-decoration: none;
-    color: #ed127b;
+    color: #ff12ee;
   }
 
   .about {
@@ -370,32 +361,42 @@ a.dribbble {
 
 
   h3 {
-    font: 600 100%/0em 'Signika',sans-serif;
+    font: 100 100%/0em 'Anek Kannada', sans-serif;
   }
 
   h2 {
-    font: 300 100%/0em 'Signika',sans-serif;
+    font: 100 130%/0em 'Anek Kannada', sans-serif;
 
   }
 
 
   a.logo {
-    background-size: 80%!important;
     width: 500px;
     height: 110px;
-    background-position: top center;
   }
 }
 
 
 @media only screen and (max-width: 850px) {
-  .thumbcont {
-    width:33.33%;
+ 
+
+   #my-video {
+    width:540px;
+    height:303px;
+
   }
 
+ #my-video .vjs-big-play-button {
+    font-size: 4em;
+    margin: 120px 220px;
+  }
+
+
+
   .aboutsec {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
   }
 
   .about {
@@ -410,6 +411,9 @@ a.dribbble {
   .hovertext{
     padding-top: 35%;
     font-size: 80%;
+
+
+
   }
 }
 
@@ -418,48 +422,18 @@ a.dribbble {
 @media only screen and (max-width: 667px) {
 
   #my-video {
-    width:360px;
-    height:202px;
+    width:540px;
+    height:303px;
   }
 
-  #box-video {
-    width:202px;
-    height:202px;
-    margin-left: 81px;
-  }
+
   
-  #my-video .vjs-big-play-button {
-    font-size: 3em;
-    margin: 70px 126px;
+
+ h1 {
+   font: 100 200%/0em 'Anek Kannada',sans-serif;
+    padding-top: 20px;
   }
 
-  #box-video .vjs-big-play-button {
-    font-size: 3em;
-    margin: 70px 49px;
-  }
-
-  h1 {
-   font: 300 120%/0em 'Signika',sans-serif;
-    
-  }
-   .modal-header .close {
-    margin-left: 338px;
-  }
-  
-  .close {
-    font-size: 40px;
-  }
-
-   .boxvideotitle {
-      padding-left: 10px;
-      margin-left: 79px;
-      margin-right: 70px;
- 
-  }
-
-  #gifsmodal .modal-header .close {
-  margin-left: 262px;
-  }
 
 @media only screen and (max-width: 600px) {
   
@@ -467,6 +441,7 @@ a.dribbble {
     background-color: rgba(0, 0, 0, 0);
     padding-left: 0px;
     position:absolute;
+    margin-left: 30px;
   }
   
   #menu-links {
@@ -487,7 +462,7 @@ a.dribbble {
     float:left;
     /*position: fixed!important;*/
     font-size: 3rem;
-    border: 3px solid #ed127b;
+    border: 3px solid #ff12ee;
     width: 5rem;
     text-align: center;
     margin-bottom: 10px;
@@ -495,18 +470,19 @@ a.dribbble {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
-    color:#ed127b;
+    color:#2e2e2e;
   }
 
   a.logo {
     background-size: 50%!important;
     background-position: top left!important;
-    margin-left: 60px;
-    margin-top: -18px;
+    margin-left: 92px;
+    margin-top: 15px;
+    margin-bottom: -30px;
   }
 
   #navbar a.menu-icon:hover {
-    border: 3px solid #ed127b;
+    border: 3px solid #ff12ee;
 
   }
 
@@ -544,7 +520,7 @@ a.dribbble {
 
   
   h3 {
-    font: 600 80%/0em 'Signika',sans-serif;
+    font: 100 80%/0em 'Anek Kannada', sans-serif;
     text-align: center;
     margin-bottom: 0;
     padding-bottom: 0;
@@ -552,7 +528,7 @@ a.dribbble {
   }
 
   h2 {
-    font: 300 80%/0em 'Signika',sans-serif;
+    font: 100 80%/0em 'Anek Kannada', sans-serif;
     text-align: center;
     margin-top: 0;
     padding-top: 0;
@@ -564,6 +540,6 @@ a.dribbble {
   }
   
   .aboutsec {
-    margin-top: -50px;
+    margin-top: 0px;
   }
 }
